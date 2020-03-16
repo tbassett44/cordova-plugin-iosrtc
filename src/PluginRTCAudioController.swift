@@ -33,7 +33,7 @@ class PluginRTCAudioController {
 		
 		do {
 			let audioSession: AVAudioSession = AVAudioSession.sharedInstance()
-			try audioSession.setActive(true)
+			//try audioSession.setActive(true)
 		} catch  {
 			print("Error messing with audio session: \(error)")
 		}
